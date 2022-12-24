@@ -1,0 +1,26 @@
+{
+  "name": "create-retes-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/cli.js",
+  "type": "module",
+  "bin": {
+    "create-retes-app": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "esbuild src/cli.ts --bundle --minify --outfile=dist/cli.js --platform=node --format=esm --target=node16 --banner:js=\"import { createRequire } from 'module';const require = createRequire(import.meta.url);import { dirname } from 'path'; import { fileURLToPath } from 'url'; const __dirname = dirname(fileURLToPath(import.meta.url));\" --out-extension:.js=.js"
+  },
+  "keywords": [],
+  "author": "Zaiste",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@types/yargs": "^17.0.17",
+    "tsm": "^2.3.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "tegit": "^0.3.0",
+    "yargs": "^17.6.2"
+  }
+}
