@@ -1,22 +1,24 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^18.11.17
-  '@types/yargs': ^17.0.17
-  clean-publish: ^4.0.2
+  '@types/node': ^18.11.18
+  '@types/yargs': ^17.0.19
+  clean-publish: ^4.1.1
+  picocolors: ^1.0.0
   tegit: ^0.3.0
   tsm: ^2.3.0
   typescript: ^4.9.4
   yargs: ^17.6.2
 
 dependencies:
+  picocolors: 1.0.0
   tegit: 0.3.0
   yargs: 17.6.2
 
 devDependencies:
-  '@types/node': 18.11.17
-  '@types/yargs': 17.0.17
-  clean-publish: 4.0.2
+  '@types/node': 18.11.18
+  '@types/yargs': 17.0.19
+  clean-publish: 4.1.1
   tsm: 2.3.0
   typescript: 4.9.4
 
@@ -70,19 +72,19 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.14.0
+      fastq: 1.15.0
     dev: true
 
-  /@types/node/18.11.17:
-    resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
 
   /@types/yargs-parser/21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: true
 
-  /@types/yargs/17.0.17:
-    resolution: {integrity: sha512-72bWxFKTK6uwWJAVT+3rF6Jo6RTojiJ27FQo8Rf60AL+VZbzoVPnMFhKsUnbjR8A3BTCYQ7Mv3hnl8T0A+CX9g==}
+  /@types/yargs/17.0.19:
+    resolution: {integrity: sha512-cAx3qamwaYX9R0fzOIZAlFpo4A+1uBVCxqpKz9D26uTF4srRXaGTTsikQmaotCtNdbhzyUH7ft6p9ktz9s6UNQ==}
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: true
@@ -106,8 +108,8 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /clean-publish/4.0.2:
-    resolution: {integrity: sha512-WLg3deN5jTs6W3JjioTywlfmFMvOFTTwkhUQ6QJ/6b4Um7pqOM5g/NivYnUFTasi3j3BARAP6HIKxGWlWPJ8hw==}
+  /clean-publish/4.1.1:
+    resolution: {integrity: sha512-111O3MNk6x/dAbHZwG+iRZ4AYwpKqc7Qp1MarFhE1KtQIp9m9TkDuI+hedn7qgeFnLgSw3ItgEnHNwvhc7SmGg==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
@@ -388,8 +390,8 @@ packages:
       micromatch: 4.0.5
     dev: true
 
-  /fastq/1.14.0:
-    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==}
+  /fastq/1.15.0:
+    resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
     dependencies:
       reusify: 1.0.4
     dev: true
@@ -496,6 +498,10 @@ packages:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
     engines: {node: '>=8'}
     dev: true
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+    dev: false
 
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}

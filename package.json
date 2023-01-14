@@ -18,13 +18,14 @@
   "author": "Zaiste",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@types/node": "^18.11.17",
-    "@types/yargs": "^17.0.17",
-    "clean-publish": "^4.0.2",
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.19",
+    "clean-publish": "^4.1.1",
     "tsm": "^2.3.0",
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "picocolors": "^1.0.0",
     "tegit": "^0.3.0",
     "yargs": "^17.6.2"
   },
